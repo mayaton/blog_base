@@ -1,0 +1,9 @@
+name = "mayaton"
+license = "MIT"
+description = "mayaton's theme"
+tags = ["blog", "personal"]
+features = ["white", "tags"]
+
+[author]
+  name = "mayaton"
+  homepage = "http://mayaton.net/"

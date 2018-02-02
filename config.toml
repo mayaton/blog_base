@@ -1,0 +1,9 @@
+baseURL = "http://mayaton.net/"
+languageCode = "ja"
+title = "mayaton雑記帳"
+theme = "mayaton"
+
+[params.social]
+  twitter_id = "alice_book"
+  hatena = true
+  github = "mayaton"
