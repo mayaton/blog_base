@@ -51,12 +51,12 @@
                 </ul>
                 <p class="navbar-text navbar-right"><a class="navbar-link" href="{{ .RSSLink}}">rss</a></p>
 
-                {{ if or .Site.Params.social.github }}
-                <p class="navbar-text navbar-right"><a class="navbar-link" href="https://github.com/{{.Site.Params.social.github}}">github</a></p>
+                {{ if or .Site.Data.social.Params.github }}
+                <p class="navbar-text navbar-right"><a class="navbar-link" href="https://github.com/{{.Site.Data.social.Params.github}}">github</a></p>
                 {{ end }}
 
-                {{ if or .Site.Params.social.twitter_id }}
-                <p class="navbar-text navbar-right"><a class="navbar-link" href="https://twitter.com/{{.Site.Params.social.twitter_id}}">twitter</a></p>
+                {{ if or .Site.Data.social.Params.twitter_id }}
+                <p class="navbar-text navbar-right"><a class="navbar-link" href="https://twitter.com/{{.Site.Data.social.Params.twitter_id}}">twitter</a></p>
                 {{ end }}
             </div>
         </div>
